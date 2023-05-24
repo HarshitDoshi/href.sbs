@@ -4,6 +4,7 @@ import './globals.css'
 import Head from 'next/head'
 import Header from './header'
 import Footer from './footer'
+import { Analytics } from '@vercel/analytics/react';
 
 // export const metadata = {
 //   title: 'shunyaek',
@@ -30,6 +31,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
