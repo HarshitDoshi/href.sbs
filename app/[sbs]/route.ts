@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { getValue } from "@/utilities";
 import { NextResponse } from "next/server";
 
