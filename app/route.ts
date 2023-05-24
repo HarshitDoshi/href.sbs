@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { encodeURL, getValue, setKey } from '@/utilities';
 import { nanoid } from 'nanoid/async';
 import { NextResponse } from "next/server";
