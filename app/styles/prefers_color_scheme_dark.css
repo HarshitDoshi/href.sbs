@@ -1,0 +1,44 @@
+@media (prefers-color-scheme: dark) {
+        :root {
+                --base-font-size: 16px;
+                --standard-margin: 0 auto;
+                --standard-padding: 0.5rem;
+                --double-padding: calc(var(--standard-padding) * 2);
+                --slim-padding: calc(var(--standard-padding) / 5);
+                --background: #0f172a;
+                --background-opaque: #02061799;
+                --header-and-footer-border: #1e293b;
+                --text: #f8fafc;
+                --sans-serif-font: 'Red Hat Text', sans-serif;
+                --monospace-font: 'Red Hat Mono', monospace;
+                --background-start-rgb: 2, 6, 23;
+                --background-end-rgb: 2, 6, 23;
+                --button-background-start-rgb: 30, 41, 59;
+                --button-background-end-rgb: 2, 6, 23;
+                --primary-glow: conic-gradient(from 180deg at 50% 50%,
+                                #800080 15deg,
+                                #800080 60deg,
+                                #800080 120deg,
+                                #800080 165deg,
+                                #800080 195deg,
+                                #800080 240deg,
+                                #800080 300deg,
+                                #800080 345deg);
+                --secondary-glow: conic-gradient(from 180deg at 50% 50%,
+                                #800080 15deg,
+                                #800080 60deg,
+                                #800080 120deg,
+                                #800080 165deg,
+                                #800080 195deg,
+                                #800080 240deg,
+                                #800080 300deg,
+                                #800080 345deg);
+                --tile-border: conic-gradient(#00000080,
+                                #00000040,
+                                #00000030,
+                                #00000020,
+                                #00000010,
+                                #00000010,
+                                #00000080);
+        }
+}
